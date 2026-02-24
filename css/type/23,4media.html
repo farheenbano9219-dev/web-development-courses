@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Phone */
+        @media screen and (min-width:0) and (max-width:480px){
+
+        body{
+            background-color: blue;
+            color: white;
+        }
+
+        ul li{
+            display: inline;
+            margin-right: 10px;
+        }
+
+        }
+
+
+
+
+          /* Ipad/Larger  */
+        @media screen and (min-width:481px) and (max-width:768px){
+
+        body{
+            background-color: orange;
+            color: white;
+        }
+
+        ul li{
+            display: inline;
+            margin-right: 10px;
+        }
+
+        p{
+            display: none;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Home</li>
+        <li>Contact</li>
+        <li>Support</li>
+    </ul>
+
+    <h1>Hello, Responsive World!</h1>
+    <p>This is a responsive web page.</p>
+    <p>It adapts to different screen sizes.</p>
+</body>
+</html>
