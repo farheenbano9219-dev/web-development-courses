@@ -1,4 +1,4 @@
- /* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 
-/* Header Section */
+
 .header {
     background-color: #1a73e8;
     color: white;
@@ -32,8 +32,6 @@ body {
     margin-bottom: 10px;
     flex-wrap: wrap;
 }
-
-/* Container */
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -42,7 +40,7 @@ body {
     flex-wrap: wrap;
 }
 
-/* Summary Cards Section - Flexbox */
+
 .summary-cards {
     display: flex;
     justify-content: space-between;
@@ -55,7 +53,7 @@ flex-wrap: wrap;}
 
 .card {
     background: white;
-    flex: 1; /* Makes cards equal width */
+    flex: 1; 
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -76,7 +74,7 @@ flex-wrap: wrap;}
     color: #1a73e8;
 }
 
-/* Expense Categories Section */
+
 .categories-section {
     background: white;
     padding: 30px;
@@ -104,7 +102,7 @@ flex-wrap: wrap;}
 
 .category-item {
      display: flex;
-    justify-content: space-between; /* Aligns name left, amount right */
+    justify-content: space-between;
     padding: 15px 0;
     border-bottom: 1px solid #eee;
     flex-wrap: wrap;
@@ -126,7 +124,7 @@ flex-wrap: wrap;}
           .transaction-item{     
             display: flex;                                                                  
              
-    justify-content: space-between; /* Aligns name left, amount right */
+    justify-content: space-between; 
     padding: 15px 0;
     border-bottom: 1px solid #eee;
     flex-wrap: wrap;
